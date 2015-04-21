@@ -1,4 +1,5 @@
-__author__ = 'hsalih'
+#!/usr/bin/python
+__author__ = 'ehagnur'
 '''
 This function prints a tree of a given dependency graph
 '''
