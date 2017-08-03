@@ -23,9 +23,9 @@ M->N
 M->H
 O->P
 P->Q
-#Code prints the dependency tree like shown below. incase of cyclic dependency the exit condition to avoid infinite loop 
-#(eg.  I -> K -> L -> I). My approach since I has been already encoutered and L is larger order value than I we don't go 
-#back to the recursion, instead just print I.)
+Code prints the dependency tree like shown below. incase of cyclic dependency the exit condition to avoid infinite loop 
+like (eg.  I -> K -> L -> I), my approach is since I has been already encoutered and L is larger order value than I we don't go 
+back to the recursion, instead just print I.)
 A
 
 __| B
